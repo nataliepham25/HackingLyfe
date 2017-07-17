@@ -14,6 +14,48 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+    .button1 img { 
+	transition: all 0.4s ease-in-out 0.2s;
+    opacity: 1;
+}
+.button1 .mask { 
+	background-color: rgba(0,0,0,0.8);
+	opacity: 0;
+	transform: scale(0) rotate(-180deg);
+	transition: all 0.4s ease-in;
+    border-radius: 0px;
+}
+.button1 h2{
+    opacity: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+	transition: all 0.5s ease-in-out;
+}
+.button1 p { 
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.button1 a.info { 
+    opacity: 0;
+	transition: all 0.5s ease-in-out;
+} 
+.button1:hover .mask { 
+	opacity: 1; 
+	transform: scale(1) rotate(0deg);
+	transition-delay: 0.2s;
+}								  
+.button1:hover img 	  { 
+	transform: scale(0); 
+    opacity: 0;
+	transition-delay: 0s;
+}						
+.button1:hover h2,
+.button1:hover p,
+.button1:hover a.info{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
 .button2 {
     background-color: #ebc6eb;
     border: none;
@@ -77,7 +119,7 @@ body {background-color:#ebc6eb;
 <h3><button class="button3"><b><p id="rcorners1">Random</p></b></button></h3>
 <h3><button class="button4"><b><p id="rcorners1">Beauty</p></b></button></h3>
 <h3><button class="button4"><b><p id="rcorners1">Office</p></b></button></h3> 
-<h3><button class="button4"><b><p id="rcorners1">Cleaning</p></b></button></h3>                                               
+                                               
 </body>
 </html>
 
