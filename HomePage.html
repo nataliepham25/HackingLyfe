@@ -2,6 +2,24 @@
 <html>
 <head>
 <style>
+	input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
 .button1 {
     background-color: #ffffe6;
     border: none;
@@ -577,6 +595,9 @@ body {background-color:#ffffe6;
 </style>
 </head>
 <body>
+<form>
+  <input type="text" name="search" placeholder="Search...">
+</form>
 <header class="hacking"><center><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png" style="width:128px;height:128px;"><i>  Hacking Lyfe</i><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png"style="width:128px;height:128px;"></center></style></header>
 <button class="button1"><b><p id="rcorners1">Food</p></b></button>
 <button class="button2"><b><p id="rcorners2">Clothing</p></b></button>
