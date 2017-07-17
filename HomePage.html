@@ -52,11 +52,19 @@
 }
 #rcorners1 {
     border-radius: 25px;
-    background: #b3ffcc;
+    background: #99ff99;
     padding: 20px; 
-    width: 300px;
+    width: 350px;
     height: 200px; 
 }    
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 body {background-color:#ebc6eb;
 </style>
 </head>
@@ -65,9 +73,11 @@ body {background-color:#ebc6eb;
 &nbsp
 &nbsp
 <h3><button class="button1"><b><p id="rcorners1">Food</p></b></button></h3>
-<h3><button class="button2"><b><p id="rcorners1">Cooking</p></b></button></h3>
+<h3><button class="button2"><b><p id="rcorners1">Clothing</p></b></button></h3>
 <h3><button class="button3"><b><p id="rcorners1">Random</p></b></button></h3>
 <h3><button class="button4"><b><p id="rcorners1">Beauty</p></b></button></h3>
+<h3><button class="button4"><b><p id="rcorners1">Office</p></b></button></h3> 
+                                               
 </body>
 </html>
 
