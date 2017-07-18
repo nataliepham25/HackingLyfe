@@ -16,7 +16,6 @@
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
 input[type=text]:focus {
     width: 40%;
 }
@@ -519,7 +518,6 @@ transition-delay: 0.5s;
 .hacking{
 font-size:90px;
 }
-
 #rcorners1 {
     border-radius: 25px;
     background: #b2d9ff;
@@ -599,21 +597,59 @@ body {background-color:#ffffe6;
   <input type="text" name="search" placeholder="Search...">
 </form>
 <header class="hacking"><center><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png" style="width:100px;height:110px;"><i>  Hacking Lyfe</i><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png"style="width:110px;height:110px;"></center></style></header>
-<center><button class="button1"><b><p id="rcorners1">Food</p></b></button>
-<button class="button2"><b><p id="rcorners2">Clothing</p></b></button>
-<button class="button3"><b><p id="rcorners3">Animals</p></b></button></center>
-<center><button class="button4"><b><p id="rcorners4">Cleaning</p></b></button>
-<button class="button5"><b><p id="rcorners5">Beauty</p></b></button>
-<button class="button6"><b><p id="rcorners6">Travel</p></b></button></center>
-<center><button class="button7"><b><p id="rcorners7">Technology</p></b></button>
-<button class="button8"><b><p id="rcorners8">Office/School</p></b></button>
-<button class="button9"><b><p id="rcorners9">Random</p></b></button></center>	
+
+<center><button class="button1" onclick="foodpage()"><b><p id="rcorners1">Food</p></b></button>
+
+<button class="button2"  onclick="clothingpage()"><b><p id="rcorners2">Clothing</p></b></button>
+
+<button class="button3"  onclick="animalspage()"><b><p id="rcorners3">Animals</p></b></button></center>
+
+<center><button class="button4"  onclick="cleaningpage()"><b><p id="rcorners4">Cleaning</p></b></button>
+
+<button class="button5"  onclick="beautypage()"><b><p id="rcorners5">Beauty</p></b></button>
+
+<button class="button6"  onclick="travelpage()"><b><p id="rcorners6">Travel</p></b></button></center>
+
+<center><button class="button7"  onclick="technologypage()"><b><p id="rcorners7">Technology</p></b></button>
+
+<button class="button8"  onclick="officepage()"><b><p id="rcorners8">Office/School</p></b></button>
+
+<button class="button9"  onclick="randompage()"><b><p id="rcorners9">Random</p></b></button></center>	
 
 <div style="clear: both">
     <h2 style="float: left"><font size="5"><i>Contact</i></h2>
     <h3 style="float: right"><font size="5"><i>About Us</i></h3>
 </div>
 <hr />
-
+<script>
+function foodpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/food.html';
+    
+}
+function clothingpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/clothing.html#';
+}
+function animalspage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/animals.html#';
+}
+function cleaningpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/cleaning.html';
+}
+function beautypage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/beauty.html#';
+}
+function travelpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/travel.html#';
+}
+function technologypage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/tech.html#';
+}
+function officepage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/office.html#';
+}
+function randompage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/random.html#';
+}
+</script>
 </body>
 </html>
