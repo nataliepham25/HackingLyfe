@@ -11,15 +11,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Categories</a>
-  <a href="#categories" onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
-  <a href="#..." onclick="w3_close()" class="w3-bar-item w3-button">...</a>
+ <a href="#categories" onclick="homepage()" class="w3-bar-item w3-button">Home Page</a>
+  <a href="#categories" onclick="foodpage()" class="w3-bar-item w3-button">Food</a>
+  <a href="#clothing" onclick="clothingpage()" class="w3-bar-item w3-button">Clothing</a>
+  <a href="#animals" onclick="animalsage()" class="w3-bar-item w3-button">Animals</a>
+  <a href="#cleaning" onclick="cleaningpage()" class="w3-bar-item w3-button">Cleaning</a>
+  <a href="#beauty" onclick="beautypage()" class="w3-bar-item w3-button">Beauty</a>
+  <a href="#travel" onclick="travelpage()" class="w3-bar-item w3-button">Travel</a> 
+  <a href="#technology" onclick="technologypage()" class="w3-bar-item w3-button">Technology</a>  
+  <a href="#office/school" onclick="officepage()" class="w3-bar-item w3-button">Office/School</a>  
+  <a href="#random" onclick="randompage()" class="w3-bar-item w3-button">Random</a>  
 </nav>
 
 <!-- Top menu -->
@@ -160,6 +161,40 @@ function w3_open() {
  
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script>
+function homepage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/HomePage.html#';
+    
+}
+function foodpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/food.html';
+    
+}
+function clothingpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/clothing.html#';
+}
+function animalspage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/animals.html#';
+}
+function cleaningpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/cleaning.html';
+}
+function beautypage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/beauty.html#';
+}
+function travelpage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/travel.html#';
+}
+function technologypage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/tech.html#';
+}
+function officepage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/office.html#';
+}
+function randompage(){
+	window.location.href = 'https://nataliepham25.github.io/HackingLyfe/random.html#';
 }
 </script>
 
