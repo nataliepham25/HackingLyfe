@@ -3,7 +3,8 @@
 <head>
 <style>
 	input[type=text] {
-    width: 100px;
+    width: 150px;
+    height: 100 px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -16,8 +17,43 @@
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
+input[type=text2] {
+    width: 800px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text3] {
+    width: 800px;height: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
 input[type=text]:focus {
-    width: 40%;
+    width: 80%;
+}
+input[type=text2]:focus {
+    width: 80%;
+}
+input[type=text3]:focus {
+    width: 80%;
 }
 .button1 {
     background-color: #ffffe6;
@@ -597,26 +633,37 @@ body {background-color:#ffffe6;
   <input type="text" name="search" placeholder="Search...">
 </form>
 <header class="hacking"><center><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png" style="width:100px;height:110px;"><i>  Hacking Lyfe</i><img src="https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png"style="width:110px;height:110px;"></center></style></header>
-
 <center><button class="button1" onclick="foodpage()"><b><p id="rcorners1">Food</p></b></button>
-
 <button class="button2"  onclick="clothingpage()"><b><p id="rcorners2">Clothing</p></b></button>
-
 <button class="button3"  onclick="animalspage()"><b><p id="rcorners3">Animals</p></b></button></center>
-
 <center><button class="button4"  onclick="cleaningpage()"><b><p id="rcorners4">Cleaning</p></b></button>
-
 <button class="button5"  onclick="beautypage()"><b><p id="rcorners5">Beauty</p></b></button>
-
 <button class="button6"  onclick="travelpage()"><b><p id="rcorners6">Travel</p></b></button></center>
-
 <center><button class="button7"  onclick="technologypage()"><b><p id="rcorners7">Technology</p></b></button>
-
 <button class="button8"  onclick="officepage()"><b><p id="rcorners8">Office/School</p></b></button>
-
 <button class="button9"  onclick="randompage()"><b><p id="rcorners9">Random</p></b></button></center>	
-
 <div style="clear: both">
+<hr />
+
+<center>
+<h2>Send us your hacks!</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text2" name="name"><br>
+E-mail:<br>
+<input type="text2" name="mail"><br>
+Comment:<br>
+<input type="text3" name="comment" size="80"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</center>
+
+
+
+
+
 <hr />
     <h2 style="text-align: center"><font size="5"><i>Contact</i></h2>
  <center>
@@ -651,7 +698,6 @@ body {background-color:#ffffe6;
     &nbsp
     &nbsp
     &nbsp
-
 <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/20156001_1988365728111762_1114252790326421477_n.jpg?oh=497d6022607421ae2416899421291a5b&oe=5A09DADE
 " width=10% >
    &nbsp
@@ -673,7 +719,6 @@ body {background-color:#ffffe6;
     </div>
   </div>
  
-
 </div>
 <script>
 function foodpage(){
