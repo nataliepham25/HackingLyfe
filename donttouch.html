@@ -77,30 +77,32 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button1 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #b2d9ff;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
     border-radius: 0px;
 /*the margins are edited*/   
-    margin: 65px 0px;
+    /*margin: 65px 0px;*/
       
 }
 
 .button1 h2{
-    opacity: 0;
+/*this is where the the color changes*/
+    opacity: 1;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+    /* this is where the text of the button changes*/
+	transition: 6.0s;
 }
 .button1 p { 
 	opacity: 10; 
 	transition: all 0.4s ease-in-out;
     position: absolute;
 	overflow:hidden;
-  	top:center;
-    left:center;
+  	top:200px;
+    left:100px;
     z-index:6;
     
 }
@@ -144,7 +146,7 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button2 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #ccffcc;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
@@ -152,11 +154,11 @@ input[type=text3]:focus {
     margin 75px 35px;
 }
 .button2 h2{
-    opacity: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 1;
+   
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+	transition: all 6.0s ease-in-out;
 }
 .button2 p { 
 	opacity: 10;
@@ -202,22 +204,28 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button3 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #ffccff;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
     border-radius: 0px;
+    margin: 78px 12px;
 }
 .button3 h2{
-    opacity: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+	transition: 6.0s;
 }
 .button3 p { 
 	opacity: 10;
 	transition: all 0.5s ease-in-out;
+    position: absolute;
+	overflow:hidden;
+  	top: 200px;
+    left:center;
+    z-index:6;
 }
 .button3 a.info { 
     opacity: 0;
@@ -575,40 +583,40 @@ font-size:90px;
 }
 
 
+
 #box1 {
-	width: 255px;
-    height: 440px;
-    border: 2px solid gray;
+	width: 270px;
+    height: 480px;
+    border: 3px solid gray;
     float: left;
-    margin-left: 60px;
+    margin-left: 30px;
     
      
 }
 #box2 {
-	width: 255px;
-    height: 440px;
-    border: 2px solid gray;
+	width: 270px;
+    height: 480px;
+    border: 3px solid gray;
     float:left;
-    margin-left: 40px;
-    
-}
-#box3 {
-	width: 255px;
-    height: 440px;
-    border: 2px solid gray;
-    float: left;
     margin-left: 30px;
     
 }
-#box4 {
-	width: 255px;
-    height: 440px;
-    border: 2px solid gray;
-    float: right;
-    margin-right: 60px;
-    
+#box3 {
+	width: 270px;
+    height: 480px;
+    border: 3px solid gray;
+    float: left;
+    margin-left: 23px;
     
 }
+#box4 {
+	width: 270px;
+    height: 480px;
+    border: 3px solid gray;
+    float: right;
+    margin-right: 30px;
+    
+    
 }
 #rcorners1 {
     border-radius: 25px;
@@ -619,7 +627,7 @@ font-size:90px;
 } 
 #rcorners2 {
     border-radius: 25px;
-    background: #ccffcc;
+    background: #9900cc;
     padding: 20px; 
     width: 300px;
     height: 200px; 
@@ -654,14 +662,14 @@ font-size:90px;
 } 
 #rcorners7 {
     border-radius: 25px;
-    background: #408000;
+    background: #77b300;
     padding: 20px; 
     width: 300px;
     height: 200px; 
 } 
 #rcorners8 {
     border-radius: 25px;
-    background: #f4ddff;
+    background: #efccff;
     padding: 20px; 
     width: 300px;
     height: 200px; 
@@ -792,13 +800,16 @@ Comment:<br>
     </div>
  <center>
 
-<div id="box1"><font size="6">Sophia Girmay<br></font><font size="3">sophiagirmay1424@gmail.com<br><br></font><font size="4">My name is Sophia Girmay and I'm a rising senior at James Logan High School in Union City. During the summer of 2017 I participated in a program called Girls Who Code where we learned how to code for seven weeks. Towards the end of the program we worked on final prjects and this is my group;s project. Hope you find it useful!</font>
+<div id="box1"><font size="6">Sophia Girmay<br></font><font size="3">sophiagirmay1424@gmail.com<br><br></font><font size="4">
+My name is Sophia Girmay and I'm a rising senior at James Logan High School in Union City. During the summer of 2017 I participated in a program called Girls Who Code where we learned how to code for seven weeks. Towards the end of the program we worked on final projects and this is my group’s project. Hope you find it useful!
+</font>
 </div>
-<div id="box2"><font size="6">Natalie Pham<br></font><font size="3">Your Email<br><br></font><font size="4">Your Bio</font>
+<div id="box2"><font size="6">Natalie Pham<br></font><font size="3">nataliepham525@gmail.com<br><br></font><font size="4">Hi! My name is Natalie and I am a rising junior in high school. I have been part of the Girls Who Code program since the beginning of my sophomore year. During the summer immersion program, I have met tremendously passionate and brilliant girls. Toward the last few weeks of our program we designed this website as our final project. I spend my free time consuming mass amounts of boba with my friends and participating in my extracurricular activities. I hope that you enjoy our website! Please feel free to contact me for questions!</font>
 </div>
 <div id="box3"><font size="6">Rebecca Noordeen<br></font><font size="3">r.noordeen164@gmail.com<br><br></font><font size="4">Hi! My name is Rebecca, I am 17 years old, and I am currently a rising senior at Monta Vista High School in Cupertino, California. I started coding in the summer of 2017 with an organization called Girls Who Code. In my free time I like to play soccer, hang out with friends, and play games. I hope everyone enjoys our website filled with hacks! Feel free to email me with any questions :)</font>
 </div>
-<div id="box4"><font size="6">Wendi Vien<br></font><font size="3">Your Email<br><br></font><font size="4">Your Bio</font>
+<div id="box4"><font size="6">Wendi Vien<br></font><font size="3">wendivien56@gmail.com<br><br></font><font size="4">Hi! My name is Wendi and I am currently a rising senior in high school. During the summer of 2017 I participated in Girls Who Code and have met an amazing group of girls who are kind, smart, and driven. In the last two weeks of the program, we worked together to design a website that allows our audience to interactively and efficiently look up lifestyle hacks. In my free time I enjoy hanging out with friends and hiking. I hope you find our website as entertaining as we do! 
+</font>
 </div>
 </center>
     
