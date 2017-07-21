@@ -76,7 +76,7 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button1 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #b2d9ff;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
@@ -87,11 +87,13 @@ input[type=text3]:focus {
 }
 
 .button1 h2{
-    opacity: 0;
+/*this is where the the color changes*/
+    opacity: 1;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+    /* this is where the text of the button changes*/
+	transition: 6.0s;
 }
 .button1 p { 
 	opacity: 10; 
@@ -143,7 +145,7 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button2 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #ccffcc;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
@@ -151,11 +153,11 @@ input[type=text3]:focus {
     margin 75px 35px;
 }
 .button2 h2{
-    opacity: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 1;
+   
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+	transition: all 6.0s ease-in-out;
 }
 .button2 p { 
 	opacity: 10;
@@ -201,22 +203,28 @@ input[type=text3]:focus {
     opacity: 1;
 }
 .button3 .mask { 
-	background-color: rgba(0,0,0,0.8);
+	background-color: #ffccff;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
     border-radius: 0px;
+    margin: 78px 12px;
 }
 .button3 h2{
-    opacity: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    
     background: transparent;
     margin: 4px 2px;
-	transition: all 0.5s ease-in-out;
+	transition: 6.0s;
 }
 .button3 p { 
 	opacity: 10;
 	transition: all 0.5s ease-in-out;
+    position: absolute;
+	overflow:hidden;
+  	top: 200px;
+    left:center;
+    z-index:6;
 }
 .button3 a.info { 
     opacity: 0;
