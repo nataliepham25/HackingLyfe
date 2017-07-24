@@ -12,20 +12,34 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
 </style>
 <body>
+	
+<style>
+#homepage:hover{color:#455!important;background-color:#ffffe6!important}
+#food:hover{color:#455!important;background-color:#b2d9ff!important}
+#clothing:hover{color:#455!important;background-color:#ffa894!important}
+#cleaning:hover{color:#455!important;background-color:#bf7070!important}
+#animals:hover{color:#455!important;background-color:#ffccff!important}
+#beauty:hover{color:#455!important;background-color:#fcee8b!important}
+#travel:hover{color:#455!important;background-color:#aff497!important}
+#tech:hover{color:#455!important;background-color:#80CEA0!important}
+#office:hover{color:#455!important;background-color:#AA8eb9!important}
+#random:hover{color:#455!important;background-color:#ffcccc!important}
+</style>
 
 <!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
- <a href="#categories" onclick="homepage()" class="w3-bar-item w3-button">Home Page</a>
-  <a href="#categories" onclick="foodpage()" class="w3-bar-item w3-button">Food</a>
-  <a href="#clothing" onclick="clothingpage()" class="w3-bar-item w3-button">Clothing</a>
-  <a href="#animals" onclick="animalspage()" class="w3-bar-item w3-button">Animals</a>
-  <a href="#cleaning" onclick="cleaningpage()" class="w3-bar-item w3-button">Cleaning</a>
-  <a href="#beauty" onclick="beautypage()" class="w3-bar-item w3-button">Beauty</a>
-  <a href="#travel" onclick="travelpage()" class="w3-bar-item w3-button">Travel</a> 
-  <a href="#technology" onclick="technologypage()" class="w3-bar-item w3-button">Technology</a>  
-  <a href="#office/school" onclick="officepage()" class="w3-bar-item w3-button">Office</a>  
-  <a href="#random" onclick="randompage()" class="w3-bar-item w3-button">Random</a>  
+<nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-xlarge w3-animate-left color" style="display:none;z-index:2;width:20%;min-width:300px; background-color: white" id="mySidebar">
+ <a href="#categories" onclick="homepage()" class="w3-bar-item w3-button" id="homepage">Home Page  <img src=https://s-media-cache-ak0.pinimg.com/originals/14/f1/f7/14f1f78c20a2fef7c6268a7dfefd672d.png width="30" height="30"></a>
+  <a href="#categories" onclick="foodpage()" class="w3-bar-item w3-button" id="food" >Food</a>
+  <a href="#clothing" onclick="clothingpage()" class="w3-bar-item w3-button" id="clothing">Clothing</a>
+  <a href="#animals" onclick="animalspage()" class="w3-bar-item w3-button" id="animals">Animals</a>
+  <a href="#cleaning" onclick="cleaningpage()" class="w3-bar-item w3-button" id="cleaning">Cleaning</a>
+  <a href="#beauty" onclick="beautypage()" class="w3-bar-item w3-button" id="beauty">Beauty</a>
+  <a href="#travel" onclick="travelpage()" class="w3-bar-item w3-button" id="travel">Travel</a> 
+  <a href="#technology" onclick="technologypage()" class="w3-bar-item w3-button" id="tech">Technology</a>  
+  <a href="#office/school" onclick="officepage()" class="w3-bar-item w3-button" id="office">Office</a>  
+  <a href="#random" onclick="randompage()" class="w3-bar-item w3-button" id="random">Random</a>  
 </nav>
+	
 
 <!-- Top menu -->
 <div class="w3-top">
@@ -39,7 +53,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px"> 
 
   <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+  <div class="w3-row-padding w3-padding-16 w3-center">
     <div class="w3-quarter">
       <img src="https://s-media-cache-ak0.pinimg.com/736x/89/a2/84/89a28473fc213dcf91259d798f70dd85--path-of-destruction-sick-kids.jpg" style="width:100%">
       
